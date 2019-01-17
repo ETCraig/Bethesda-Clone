@@ -1,0 +1,11 @@
+{
+  "name": "bethesda-clone",
+  "version": "1.0.0",
+  "description": "A MERN Stack clone of Bethesda.net",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "E.T. Craig",
+  "license": "ISC"
+}
