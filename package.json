@@ -4,8 +4,11 @@
   "description": "A MERN Stack clone of Bethesda.net",
   "main": "Server.js",
   "scripts": {
+    "client-install": "npm install --prefix client",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon Server.js"
+    "server": "nodemon Server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "E.T. Craig",
   "license": "ISC",
