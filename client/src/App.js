@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 
 import NavMenu from './components/NavMenu'
-import Landing from './components/landing/Landing';
+import Routes from './Router';
 import styled from 'styled-components';
 
 class App extends Component {
   render() {
     return (
-      <div style={{maxWidth: '100vw'}}>
+      <div>
         <NavMenu />
-        <Landing />
+        {Routes}
       </div>
     );
   }
