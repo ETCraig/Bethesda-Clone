@@ -34,7 +34,7 @@ const NewsRight = styled.div`
     position: relative;
     align-items: center;
     align-content: center;
-    background-color: black;
+    background-color: #202020;
     height: 691.2px
     box-sizing: border-box;
     padding: 3em 2em 2em;
@@ -52,13 +52,18 @@ const InnerWrapper = styled.div`
 
 const H2News = styled.h2`
     color: rgb(255, 255, 255);
-    font-size: 2.3em;
+    font-size: 58.08px;
     display: inline-block;
-    margin-left: -25%;
+    margin-left: -30%;
+    cursor: pointer;
     margin-bottom: 30px;
     font-weight: 700;
-    font-family: Trade Gothic LT;
+    font-family: 'Pathway Gothic One', sans-serif;
     line-height: 1.06;
+    letter-spacing: -0.03em;
+    line-height: 61.5648px;
+    max-width: 430px;
+    height: 182.4px;
 `;
 
 const NewsContainer = styled.div`
@@ -97,6 +102,11 @@ const EosCont = styled.div`
     margin-top: 20px;
     font-weight: 400;
     box-sizing: border-box;
+    display: block;
+    line-height: 1.63;
+    letter-spacing: 0;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
 `;
 
 const Jan15 = styled.span`
@@ -109,6 +119,7 @@ const Jan15 = styled.span`
     margin-bottom: 0;
     vertical-align: middle;
     text-transform: uppercase
+    color: rgb(255, 255, 255);
 `;
 
 const ReadMoreCont = styled.div`
@@ -160,9 +171,11 @@ const News = props => {
         <NewsRight>
             <InnerWrapper>
                 <a><H2News>ANNOUNCING ESO: ELSWEYR & THE SEASON OF THE DRAGON</H2News></a>
-                <NewsPar src={Paragraph} /><NewsEos>News</NewsEos>
+                <NewsContainer>
+                    <NewsPar src={Paragraph} /><NewsEos>News</NewsEos>
+                </NewsContainer>
                 <EosCont>
-                    "We are happy to announce the next Chapter in The Elder Scrolls Online saga, The Elder Scrolls Online: Elsweyr, coming to PC/Mac, Xbox One and PlayStation 4 on June 4. Learn about this exciting new adventure and the year-long Season of the Dragon storyline right here."
+                    We are happy to announce the next Chapter in The Elder Scrolls Online saga, The Elder Scrolls Online: Elsweyr, coming to PC/Mac, Xbox One and PlayStation 4 on June 4. Learn about this exciting new adventure and the year-long Season of the Dragon storyline right here.
                 </EosCont>
                 <Jan15>The Elder Scrolls Online Elsweyr - Jan 15</Jan15>
                 <ReadMoreCont>
