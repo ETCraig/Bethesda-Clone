@@ -87,8 +87,8 @@ const NewsPar = styled.img`
 `;
 
 const NewsEos = styled.span`
-    font-size: .63em;
-    font-family: Trade Gothic LT Extended;
+    font-size: 10.08px;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     line-height: 1.63;
     letter-spacing: .1em;
@@ -151,7 +151,7 @@ const ArrowIcon = styled.img`
 
 const ReadMore = styled.span`
     font-size: .75em;
-    font-family: Trade Gothic LT Extended;
+    font-family: 'Pathway Gothic One', sans-serif;
     font-weight: 700;
     line-height: 1.75;
     letter-spacing: .1em;
