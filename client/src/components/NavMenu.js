@@ -49,18 +49,18 @@ const TittleWrapper = styled.div`
     padding: 0;
 `;
 const BethesdaTitle = styled.h1`
-  font-family: 'Montserrat', sans-serif;
-  font-size: 22px;
-  line-height: 26.08px;
-  word-spacing: 0px;
-  text-decoration: none solid rgb(16, 93, 88);
-  height: 13.675px;
-  width: 90px;
-  display: inline;
-  overflow: hidden;
-  cursor: pointer;
-  color: #FFFFFF;
-  margin-left: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    line-height: 26.08px;
+    word-spacing: 0px;
+    text-decoration: none solid rgb(16, 93, 88);
+    height: 13.675px;
+    width: 90px;
+    display: inline;
+    overflow: hidden;
+    cursor: pointer;
+    color: #FFFFFF;
+    margin-left: 15px;
 `;
 
 const RightWrapper = styled.div`

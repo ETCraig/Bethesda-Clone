@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 import styled from 'styled-components';
 
-class TheLatest2 extends Component {
+class LatestDisplay2 extends Component {
     render() {
         return(
             <div>
@@ -12,4 +12,4 @@ class TheLatest2 extends Component {
     }
 }
 
-export default TheLatest2;
+export default LatestDisplay2;
