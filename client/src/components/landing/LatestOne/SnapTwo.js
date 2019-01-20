@@ -59,7 +59,15 @@ const ImageContentWrapper = styled.div`
 `;
 
 const SnapTwoImage = styled.img`
-    display: initial;
+    filter: blur(0px);
+    transition: filter 500ms linear 0s;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 0;
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
     box-sizing: border-box;
 `;
 
