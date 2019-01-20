@@ -2,8 +2,10 @@ import React, {Component} from 'react';
 
 import Latest from './TheLatest';
 import LatestDisplay1 from './LatestDisplay1';
+import LatestDisplay2 from './LatestDisplay2';
 import News from './News';
 import styled from 'styled-components';
+import Fallout76 from './Fallout76';
 
 const LandingWrapper = styled.div`
     max-width: 1920px;
@@ -24,6 +26,8 @@ class Landing extends Component {
                 <News />
                 <Latest />
                 <LatestDisplay1 />
+                <Fallout76 />
+                <LatestDisplay2 />
             </LandingWrapper>
         );
     }

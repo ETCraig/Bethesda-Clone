@@ -1,10 +1,10 @@
 import React from 'react';
 
 import Paragraph from '../../../assets/icons8-align-left-24.png';
-import SnapImagePng from '../../../assets/RAGE2_MobileCard_OpenWorld.png';
+import SnapOnePng from '../../../assets/Fallout76_MobileCard_WhatsNew.png';
 import styled from 'styled-components';
 
-const SnapFourWrapper = styled.div`
+const SnapOneWrapper = styled.div`
     padding: 12px;
     flex-grow: 0;
     max-width: 25%;
@@ -14,7 +14,7 @@ const SnapFourWrapper = styled.div`
     display: block;
 `;
 
-const SnapFourInnerWrapper = styled.div`
+const SnapOneInnerWrapper = styled.div`
     width: 100%;
     max-width: 100%;
     max-height: 469.975px;
@@ -25,6 +25,7 @@ const SnapFourInnerWrapper = styled.div`
     transition: all 0.2s ease-in-out;
     box-sizing: border-box;
     &:hover {
+        cursor: pointer;
         position: relative;
         transform: translateY(-6px);
         box-shadow: 0px 3px 15px rgba(0,0,0,0.5);
@@ -37,11 +38,10 @@ const SnapFourInnerWrapper = styled.div`
         display: flex;
         transition: all 0.2s ease-in-out;
         box-sizing: border-box;
-        cursor: pointer;
     }
 `;
 
-const SnapFourContainer = styled.div`
+const SnapOneContainer = styled.div`
     width: 100%;
     height: 100%;
     box-sizing: border-box;
@@ -61,7 +61,7 @@ const ImageWrapper = styled.div`
     height: 100%;
     box-sizing: border-box;
     display: block;
-`;
+`;  
 
 const ImageContentWrapper = styled.div`
     color: #FFF;
@@ -73,7 +73,7 @@ const ImageContentWrapper = styled.div`
     display: block;
 `;
 
-const SnapFourImage = styled.img`
+const SnapOneImg = styled.img`
     filter: blur(0px);
     transition: filter 500ms linear 0s;
     width: 100%;
@@ -87,7 +87,6 @@ const SnapFourImage = styled.img`
 `;
 
 const CardText = styled.div`
-    background-image: linear-gradient(transparent 0%, rgba(83, 29, 9, 0.5) 25%, rgba(83, 29, 9, 0.75) 60%, rgb(83, 29, 9) 90%);
     left: 0;
     color: #FFF;
     width: 100%;
@@ -95,6 +94,7 @@ const CardText = styled.div`
     padding: 40px;
     position: absolute;
     max-height: 100%;
+    background-image: linear-gradient(transparent 0%, rgba(34, 34, 34, 0.5) 25%, rgba(34,34,34,0.75) 60%, #222 90%);
     box-sizing: border-box;
     display: block;
 `;
@@ -152,29 +152,29 @@ const Subtitle = styled.div`
     display: block;
 `;
 
-const SnapFour = props => {
+const SnapOne = props => {
     return(
-        <SnapFourWrapper>
-            <SnapFourInnerWrapper>
-                <SnapFourContainer>
+        <SnapOneWrapper>
+            <SnapOneInnerWrapper>
+                <SnapOneContainer>
                     <a><CardContent>
                         <ImageWrapper>
-                            <SnapFourImage src={SnapImagePng} />
+                            <SnapOneImg src={SnapOnePng} />    
                         </ImageWrapper>
                         <ImageContentWrapper>
                             <CardText>
                                 <NewsWrapper>
                                     <NewsImage src={Paragraph} /><span styled={{ marginLeft: '8px', boxSizing: 'border-box' }}>NEWS</span>
                                 </NewsWrapper>
-                                <Headline>RAGE 2 – The Wild, Wild Wasteland</Headline>
-                                <Subtitle>Rage 2 • Dec 6</Subtitle>
-                            </CardText>
-                        </ImageContentWrapper>
+                                <Headline>What’s New in Fallout 76?</Headline>
+                                <Subtitle>Fallout 76 • Oct 8</Subtitle>
+                            </CardText>    
+                        </ImageContentWrapper>    
                     </CardContent></a>
-                </SnapFourContainer>
-            </SnapFourInnerWrapper>
-        </SnapFourWrapper>
+                </SnapOneContainer>
+            </SnapOneInnerWrapper>
+        </SnapOneWrapper>
     );
 }
 
-export default SnapFour;
+export default SnapOne;
