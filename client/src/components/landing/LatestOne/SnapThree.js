@@ -139,7 +139,7 @@ const Subtitle = styled.div`
 `;
 
 const SnapThree = props => {
-    return(
+    return (
         <SnapThreeWrapper>
             <SnapThreeInnerWrapper>
                 <SnapThreeContainer>
