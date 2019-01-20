@@ -1,6 +1,11 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 import SnapOne from './LatestOne/SnapOne';
+import SnapTwo from './LatestOne/SnapTwo';
+import SnapThree from './LatestOne/SnapThree';
+import SnapFour from './LatestOne/SnapFour';
+import SnapFive from './LatestOne/SnapFive';
+import SnapSix from './LatestOne/SnapSix';
 import styled from 'styled-components';
 
 const LatestWrapper = styled.div`
@@ -20,9 +25,14 @@ const LatestWrapper = styled.div`
 `;
 
 const LatestDisplay1 = props => {
-    return(
+    return (
         <LatestWrapper>
             <SnapOne />
+            <SnapTwo />
+            <SnapThree />
+            <SnapFour />
+            <SnapFive />
+            <SnapSix />
         </LatestWrapper>
     );
 }

@@ -63,7 +63,7 @@ const SnapOneImg = styled.img`
 `;
 
 const CardText = styled.div`
-    linear-gradient(transparent 0%, rgba(55, 55, 63, 0.5) 25%, rgba(55, 55, 63, 0.75) 60%, rgb(55, 55, 63) 90%);
+    background-image:linear-gradient(transparent 0%, rgba(55, 55, 63, 0.5) 25%, rgba(55, 55, 63, 0.75) 60%, rgb(55, 55, 63) 90%);
     left: 0;
     color: #FFF;
     width: 100%;
@@ -127,7 +127,7 @@ const Subtitle = styled.div`
 `;
 
 const SnapOne = props => {
-    return(
+    return (
         <SnapOneWrapper>
             <SnapOneInnerWrapper>
                 <SnapOneContainer>
@@ -138,7 +138,7 @@ const SnapOne = props => {
                         <ImageContentWrapper>
                             <CardText>
                                 <NewsWrapper>
-                                    <NewsImage src={Paragraph} /><span styled={{marginLeft: '8px', boxSizing: 'border-box'}}>NEWS</span>
+                                    <NewsImage src={Paragraph} /><span styled={{ marginLeft: '8px', boxSizing: 'border-box' }}>NEWS</span>
                                 </NewsWrapper>
                                 <Headline>Inside the Vault – January 9, 2019 [ Updated]</Headline>
                                 <Subtitle>Fallout 76 • Jan 9</Subtitle>
