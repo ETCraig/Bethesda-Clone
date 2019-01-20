@@ -25,6 +25,21 @@ const SnapThreeInnerWrapper = styled.div`
     transition: all 0.2s ease-in-out;
     box-sizing: border-box;
     display: block;
+    &:hover {
+        position: relative;
+        transform: translateY(-6px);
+        box-shadow: 0px 3px 15px rgba(0,0,0,0.5);
+        width: 100%;
+        max-width: 100%;
+        max-height: 469.975px;
+        height: 28vw;
+        overflow: hidden;
+        border-radius: 4px;
+        display: flex;
+        transition: all 0.2s ease-in-out;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
 `;
 
 const SnapThreeContainer = styled.div`
