@@ -2,7 +2,7 @@ import React from 'react';
 
 import styled from 'styled-components';
 
-const Footer = props => {
+const SectionOne = props => {
     return(
         <div>
 
@@ -10,4 +10,4 @@ const Footer = props => {
     );
 }
 
-export default Footer;
+export default SectionOne;
