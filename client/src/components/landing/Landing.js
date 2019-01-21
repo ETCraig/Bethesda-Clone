@@ -6,6 +6,7 @@ import LatestDisplay2 from './LatestDisplay2';
 import News from './News';
 import styled from 'styled-components';
 import Fallout76 from './Fallout76';
+import MakeItYours from './MakeItYours';
 
 const LandingWrapper = styled.div`
     max-width: 1920px;
@@ -19,6 +20,18 @@ const LandingWrapper = styled.div`
     background-color: #F1F1F1;
 `;
 
+const SectionBottom = styled.div`
+    height: 15vmax;
+    margin: auto;
+    display: flex;
+    max-width: 1680px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F8F8F8;
+    box-sizing: border-box;
+`;
+
 class Landing extends Component {
     render() {
         return(
@@ -28,6 +41,8 @@ class Landing extends Component {
                 <LatestDisplay1 />
                 <Fallout76 />
                 <LatestDisplay2 />
+                <MakeItYours />
+                <SectionBottom />
             </LandingWrapper>
         );
     }
