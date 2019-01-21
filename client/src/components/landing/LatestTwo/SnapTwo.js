@@ -166,8 +166,8 @@ const SnapTwo = props => {
                                 <NewsWrapper>
                                     <NewsImage src={Paragraph} /><span styled={{ marginLeft: '8px', boxSizing: 'border-box' }}>NEWS</span>
                                 </NewsWrapper>
-                                <Headline>What’s New in Fallout 76?</Headline>
-                                <Subtitle>Fallout 76 • Oct 8</Subtitle>
+                                <Headline>Welcome to the Atomic Shop</Headline>
+                                <Subtitle>Fallout 76 • Nov 2</Subtitle>
                             </CardText>    
                         </ImageContentWrapper>    
                     </CardContent></a>

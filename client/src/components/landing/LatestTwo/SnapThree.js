@@ -166,8 +166,8 @@ const SnapThree = props => {
                                 <NewsWrapper>
                                     <NewsImage src={Paragraph} /><span styled={{ marginLeft: '8px', boxSizing: 'border-box' }}>NEWS</span>
                                 </NewsWrapper>
-                                <Headline>What’s New in Fallout 76?</Headline>
-                                <Subtitle>Fallout 76 • Oct 8</Subtitle>
+                                <Headline>RAGE 2 – WTF Is a Wingstick?</Headline>
+                                <Subtitle>Rage 2 • Sep 27</Subtitle>
                             </CardText>    
                         </ImageContentWrapper>    
                     </CardContent></a>
