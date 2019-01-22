@@ -85,9 +85,6 @@ const SupportWrapper = styled.div`
     display: block;
 `;
 
-
-
-
 const LegalWrapper = styled.div`
     flex: 1;
     width: 100%;
