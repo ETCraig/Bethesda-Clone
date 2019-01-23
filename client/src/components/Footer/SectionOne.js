@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Download from '../../assets/icons8-download-24.png';
-import Globe from '../../assets/icons8-geography-24.png';
+import Globe from '../../assets/icons8-globe-earth-30.png';
 import styled from 'styled-components';
 
 const SectionOneWrapper = styled.div`
@@ -269,7 +269,7 @@ const SectionOne = props => {
             <LanguageWrapper>
                 <LanguageContainer>
                     <GlobeImg src={Globe} />
-                    <LanguageText></LanguageText>
+                    <LanguageText>Please select your language</LanguageText>
                 </LanguageContainer>
                 <SpacingDiv></SpacingDiv>
                 <LanguageBtnWrapper>

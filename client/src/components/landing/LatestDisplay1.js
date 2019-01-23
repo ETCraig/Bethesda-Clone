@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import SnapOne from './LatestOne/SnapOne';
 import SnapTwo from './LatestOne/SnapTwo';

@@ -139,9 +139,15 @@ const LoginBtn = styled.button`
 `;
 
 class NavMenu extends Component {
+    
     render() {
+        window.onscroll = () => {
+            const nav = document.querySelector('#navbar');
+            if(this.scrollY <= 10) nav.className = ''; else nav.className = 'scroll';
+          };
         return(
             <NavContainer>
+            <nav id="navbar">
                 <NavWrapper>
                     <LeftWrapper>
                         <HamWrapper>
@@ -163,6 +169,7 @@ class NavMenu extends Component {
                         </LoginWrapper>
                     </RightWrapper>
                 </NavWrapper>
+            </nav>
             </NavContainer>
         );
     }
