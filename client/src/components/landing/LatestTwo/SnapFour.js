@@ -2,6 +2,7 @@ import React from 'react';
 
 import Chats from '../../../assets/icons8-speech-bubble-24 (2).png';
 import Coment from '../../../assets/icons8-comments-24.png';
+import SnapFourImg from '../../../assets/c04d6c2a-1cfc-4601-877b-622f12af73ca.jpg';
 import ProfilePic from '../../../assets/69a61c5f-9164-471f-9d9d-b36094b3a75b.JPG';
 import styled from 'styled-components';
 
@@ -262,6 +263,13 @@ const SubtitleWrapper = styled.div`
     display: block;
 `;
 
+const BackgroundImg = styled.img`
+    border: 0;
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+`;
 
 
 const SnapFour = props => {
@@ -294,7 +302,7 @@ const SnapFour = props => {
                                 </ContentUpdateWrapper>   
                                 <PatchNotes>Patch Notes Hub</PatchNotes>
                                 <SubtitleWrapper>
-
+                                    <BackgroundImg src={SnapFourImg} />
                                 </SubtitleWrapper>
                             </ImageContentInnerWrapper>  
                         </ImageContentWrapper>    
